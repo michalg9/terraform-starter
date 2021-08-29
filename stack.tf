@@ -30,7 +30,7 @@ resource "spacelift_environment_variable" "stack-plaintext" {
 # For another (secret) variable, let's create programmatically create a super
 # secret password.
 resource "random_password" "stack-password" {
-  length  = 32
+  length  = 33
   special = true
 }
 
